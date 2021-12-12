@@ -354,5 +354,77 @@ header{
 
 /* main end */
 /* footer start */
+footer{
+    background: #F9F9F9;
+}
 
+.footer__top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__content{
+    display: flex;
+    padding: 77px 50px;
+    column-gap: 20px;
+}
+
+.footer__content-item{
+    padding: 8px 0;
+}
+
+.footer__content-link{
+    color: #000;
+    font-weight: bold;
+}
+
+.footer__content-title{
+    margin-bottom: 25px;
+}
+
+.footer__content-txt{
+    max-width: 350px;
+    width: 100%;
+    letter-spacing: 0.8px;
+    opacity: 0.6;
+}
+/* 
+.footer__content-txt::after{
+    content: '';
+    margin-top: 90px;
+    width: 350px;
+    height: 3px;
+    color: #000;
+} */
+
+.footer__link-go-up{
+    width: 80px;
+    height: 80px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+
+.footer__down{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer__down-list{
+    display: flex;
+}
+
+.footer__down-link{
+    padding: 30px;
+    font-size: 13px;
+    color: black;
+    opacity: 0.6;
+    transition: .5s;
+}
+
+.footer__down-link:hover{
+    opacity: 1;
+}
 /* footer end */
